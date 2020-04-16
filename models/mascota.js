@@ -15,6 +15,9 @@ const MascotaSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
+    Raza: {
+        type: String,
+    },
     Rasgos: {
         type: String,
         required: true,
