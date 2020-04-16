@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-const Mascota = require('../models/Mascota');
+const Mascota = require('../models/mascota');
 
 // CRUD Mascotas
 router.post('/mascotas', (req, res) => {
